@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Test.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Test.rc"" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP8A6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\AET.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Bucket.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Face.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Light.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Lighting.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\MainFrm.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Material.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\P2.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\P3.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Pi2.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Pi3.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\RGB.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\T2.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Test.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\TestDoc.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\TestView.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Transform .cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\Vector.cpp"
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\ZBuffer.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP8A6.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP8A7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Test.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\计算机图形学60案例\案例60-球面几何纹理反走样算法\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP8A7.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP8A8.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Test.pdb" /debug /machine:I386 /out:"Debug/Test.exe" /pdbtype:sept 
+".\Debug\AET.obj"
+".\Debug\Bucket.obj"
+".\Debug\Face.obj"
+".\Debug\Light.obj"
+".\Debug\Lighting.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Material.obj"
+".\Debug\P2.obj"
+".\Debug\P3.obj"
+".\Debug\Pi2.obj"
+".\Debug\Pi3.obj"
+".\Debug\RGB.obj"
+".\Debug\StdAfx.obj"
+".\Debug\T2.obj"
+".\Debug\Test.obj"
+".\Debug\TestDoc.obj"
+".\Debug\TestView.obj"
+".\Debug\Transform .obj"
+".\Debug\Vector.obj"
+".\Debug\ZBuffer.obj"
+".\Debug\Test.res"
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP8A8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AET.cpp
+Bucket.cpp
+Face.cpp
+Light.cpp
+Lighting.cpp
+MainFrm.cpp
+Material.cpp
+P2.cpp
+P3.cpp
+Pi2.cpp
+Pi3.cpp
+RGB.cpp
+T2.cpp
+Test.cpp
+TestDoc.cpp
+TestView.cpp
+Transform .cpp
+Vector.cpp
+ZBuffer.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
